@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3F51B5" /> <!-- Màu nền của nút -->
+            <corners android:radius="30dp" /> <!-- Độ cong góc của nút -->
+        </shape>
+    </item>
+    <item android:right="2dp" android:left="2dp" android:top="2dp" android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" /> <!-- Màu nền của viền -->
+            <stroke
+                android:width="2dp" <!-- Độ rộng của viền -->
+            android:color="#FFFFFF" /> <!-- Màu của viền -->
+            <corners android:radius="4dp" /> <!-- Độ cong góc của viền -->
+        </shape>
+    </item>
+</selector>
